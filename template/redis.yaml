@@ -1,0 +1,11 @@
+Name: redis
+ProviderID: ""
+Services:
+  - Image: redis
+    CPU: 0.1
+    Memory: 500
+    Storage: 500
+    Ports:
+      - Port: 6379
+
+
