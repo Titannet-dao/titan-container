@@ -1,0 +1,16 @@
+Name: candidate
+Services:
+  - Image: zscboy/candidate:0.1.12
+    CPU: 0.1
+    Memory: 100
+    Storage: 100
+    Ports:
+      - Port: 2345
+        Protocol: "TCP"
+      - Port: 2345
+        Protocol: "UDP"
+      - Port: 9000
+    Env:
+      KEY: "eyJub2RlX2lkIjoiY19jOWJlZWU0ODljMmE0ZDNlYWI1ZTcyOTFiMGY4OTc1ZCIsImFyZWFfaWQiOiJBc2lhLUNoaW5hLUd1YW5nZG9uZy1TaGVuemhlbiIsImFjdGl2YXRpb25fa2V5IjoiZGUwMDg0ZmEwMzM1YjZjOGFiOTM1MDg4MjIwZDM4MTAiLCJub2RlX3R5cGUiOjJ9"
+      LOCATOR_API_INFO: "https://192.168.0.215:5000"
+      TITAN_IPFSAPIURL: "http://192.168.0.132:5001"

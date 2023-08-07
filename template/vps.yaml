@@ -1,0 +1,11 @@
+Name: vps
+ProviderID: "8f3d8467-5733-452e-9d50-785a39db9dbc"
+Services:
+  - Image: xiaomumu001/vps:latest
+    CPU: 0.1
+    Memory: 500
+    Storage: 500
+    Ports:
+      - Port: 5577
+
+
